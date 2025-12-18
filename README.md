@@ -26,6 +26,6 @@ This recommender system is -- at the core -- a content based information retriev
 
 
 ## How the recommender works 
-![alt text](https://github.com/anupammishra-office/EstateSense-AI/blob/master/data/algorithm.png)
+![alt text](https://github.com/anupammishra-office/EstateSense-AI/blob/main/data/algorithm.png)
 
 Recommendations are shown two at a time and the user is able to pick the one they like best. The user's choice is recorded and then used to update a probabilistic "guess" of what measure of similarity is providing the best recommendations for that user. I am intent on the idea of only showing listings two at a time for one particular reason -- humans are notoriously bad at making value judgements from multiple choices when the number of choices exceeds four to five. We are, however, exceptionally good at making pairwise value comparisons. In general, people can quickly take a look at two things and tell you which is better or more preferable. The downside to this approach is that the user may have to choose listings over a large number of iterations of the algorithm before a high degree of confidence is obtained for the best distance metric.
